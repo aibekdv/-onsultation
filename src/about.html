@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+@@include("./parts/head.html",{
+"title":"Про нас"
+})
+
+<body>
+    @@include("./parts/header.html")
+    <div class="banner_head">
+        <div class="container">
+            <h1 class="banner_title" style="text-transform: uppercase;">ПРО НАС</h1>
+        </div>
+    </div>
+    <section class="about">
+        <div class="about_head">
+            <div class="container">
+                <h2 class="text-title">MEDIC.COM - медицинский онлайн хаб</h2>
+                <p>Место, где ты можешь получить все необходимые медицинские услуги. <br> Просто. Понятно. Доступно.</p>
+                <ul class="menu_us">
+                    <li>онлайн-консультации с докторами</li>
+                    <li>найти врача и записаться на прием</li>
+                    <li>онлайн-консультации бесплатно</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="about_wonder">
+                <div class="about_wonder__item">
+                    <img src="./img/icons/plus.svg" alt="" class="img-fluid" />
+                    <b>Все услуги под рукой</b>
+                </div>
+                <div class="about_wonder__item">
+                    <img src="./img/icons/free.svg" alt="" class="img-fluid" />
+                    <b>Бесплатно для пациентов</b>
+                </div>
+                <div class="about_wonder__item">
+                    <img src="./img/icons/dos.svg" alt="" class="img-fluid" />
+                    <b>Доступность</b>
+                </div>
+                <div class="about_wonder__item">
+                    <img src="./img/icons/sel.svg" alt="" class="img-fluid" />
+                    <b>Возможность выбора</b>
+                </div>
+            </div>
+        </div>
+        <div class="map">
+            <div class="container">
+                <div class="my-1">
+                    <h2 class="text-title">Наши адрес</h2>
+                    <p>Кыргызская республика, г. Ош, ул. Курманжан датка 157</p>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6065.706990540913!2d72.79233142280312!3d40.522729180212565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bdac18b61e9223%3A0xcad2a313e07cd796!2z0J7RiNGB0LrQsNGPINCz0L7RgNC-0LTRgdC60LDRjyDQutC70LjQvdC40YfQtdGB0LrQsNGPINCx0L7Qu9GM0L3QuNGG0LA!5e0!3m2!1sru!2skg!4v1650696034025!5m2!1sru!2skg"
+                    width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="about_head contact">
+            <div class="container">
+                <h2 class="text-title">Наши контакты</h2>
+                <p>Напишите нам, если у вас возникли сложности в работе с сервисом. <br> Мы открыты к общению и хотим
+                    знать больше о тех, кто нам доверяет.</p>
+                <ul class="menu_us contact">
+                    <li>+996 990 88-09-90</li>
+                    <li>+996 312 45-89-74</li>
+                    <li>support@medic.com</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    @@include("./parts/footer.html")
+</body>
+
+</html>

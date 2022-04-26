@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    @@include("./parts/head.html",{
+        "title":"Запись онлайн консультация"
+    })
+
+<body>
+    @@include("./parts/header.html")
+
+
+    <div class="banner_head">
+        <div class="container">
+            <h1 class="text-title" style="text-transform: uppercase;">Консультация</h1>
+            <p>Онлайн-консультация подойдет вам, если вам нужен быстрый ответ на вопрос связанный со здоровьем</p>
+        </div>
+    </div>
+    <!-- Онлайн консультация врача -->
+    <section class="consult">
+        <div class="container">
+            <h1 class="text-title">Запись на онлайн-консультацию</h1>
+            <p class="success_msg" style="text-align: center;">
+                Ваше заявка принята! <br>Врач свяжется с Вами в ближайшее время
+            </p>
+            <div class="consult_record">
+                <div class="consult_record__img">
+                    <img src="img/s.png" alt="">
+                </div>
+                <div class="consult_record__text">
+                    <div>
+                        <h4>Алпатова Илона Анатольевна</h4>
+                        <p class="colored_title">Косметолог</p>
+                    </div>
+                    <a href="index.html" class="cancel"><span>&times;</span>&nbsp;Отменить </a>
+                </div>
+            </div>
+            <div class="consult_form">
+                <h3>Контактные данные</h3>
+                <form>
+                    <label for="name">Имя</label>
+                    <input type="text" placeholder="Введите имя..." name="name">                    
+                    <label for="phone">Телефон</label>
+                    <input type="text" placeholder="Введите телефон..." name="phone">
+                    <label for="desc">Коротко опишите проблемную ситуацию</label>
+                    <textarea name="desc" id="desc" cols="30" rows="10"></textarea>
+                    <p>Это позволит Вам сэкономить время на проведении консультации и назначения рекомендаций врачом</p>
+
+                    <div class="m-2"><button class="btn" type="submit">Заказать</button></div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- /Онлайн консультация врача -->
+
+    <!-- Часто задаваемые вопросы -->
+    @@include("./parts/accordion.html")
+    <!-- /Часто задаваемые вопросы -->
+
+    <!-- Падвал сайта -->
+    @@include("./parts/footer.html")
+    <!-- /Падвал сайта -->
+
+</body>
+
+</html>
